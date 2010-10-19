@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @day.date %>
+</p>
+
+<p>
+  <b>Hours:</b>
+  <%= @day.hours %>
+</p>
+
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back', days_path %>
