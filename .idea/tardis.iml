@@ -56,6 +56,10 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.0.1, /usr/lib/ruby/gems/1.8/gems/rails-3.0.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v3.0.1, /usr/lib/ruby/gems/1.8/gems/activeresource-3.0.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.0.1, /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /usr/lib/ruby/gems/1.8/gems/abstract-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, /usr/lib/ruby/gems/1.8/gems/mime-types-1.16)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] polyglot (v0.3.1, /usr/lib/ruby/gems/1.8/gems/polyglot-0.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.8, /usr/lib/ruby/gems/1.8/gems/treetop-1.4.8)" level="application" />
   </component>
 </module>
 

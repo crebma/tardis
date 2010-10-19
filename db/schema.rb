@@ -12,6 +12,13 @@
 
 ActiveRecord::Schema.define(:version => 20101019233202) do
 
+  create_table "days", :force => true do |t|
+    t.date     "date"
+    t.float    "hours"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "tasks", :force => true do |t|
     t.string   "project"
     t.string   "client"
@@ -21,17 +28,6 @@ ActiveRecord::Schema.define(:version => 20101019233202) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-ActiveRecord::Schema.define(:version => 20101019233038) do
-
-  create_table "days", :force => true do |t|
-    t.date     "date"
-    t.float    "hours"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-ActiveRecord::Schema.define(:version => 20101019231337) do
 
   create_table "weeks", :force => true do |t|
     t.date     "start"
