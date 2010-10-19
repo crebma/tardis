@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Project:</b>
+  <%= @task.project %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%= @task.client %>
+</p>
+
+<p>
+  <b>Team:</b>
+  <%= @task.team %>
+</p>
+
+<p>
+  <b>Region:</b>
+  <%= @task.region %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @task.location %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

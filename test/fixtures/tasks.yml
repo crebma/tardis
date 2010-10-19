@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project: MyString
+  client: MyString
+  team: MyString
+  region: MyString
+  location: MyString
+
+two:
+  project: MyString
+  client: MyString
+  team: MyString
+  region: MyString
+  location: MyString
