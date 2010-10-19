@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  start: 2010-10-19
+  stop: 2010-10-19
+
+two:
+  start: 2010-10-19
+  stop: 2010-10-19
