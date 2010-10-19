@@ -1,5 +1,6 @@
 Tardis::Application.routes.draw do
   resources :tasks
+  resources :weeks
   resources :days
 
   # The priority is based upon order of creation:
@@ -51,7 +52,7 @@ Tardis::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => "days#index"
+  root :to => "weeks#index"
 
   # See how all your routes lay out with "rake routes"
 
