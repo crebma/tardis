@@ -1,4 +1,8 @@
 Tardis::Application.routes.draw do
+  resources :users
+
+  resources :roles
+
   resources :tasks
   resources :weeks
   resources :days
