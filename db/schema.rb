@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101019235944) do
+ActiveRecord::Schema.define(:version => 20101027001536) do
 
   create_table "days", :force => true do |t|
     t.date     "date"
@@ -35,8 +35,11 @@ ActiveRecord::Schema.define(:version => 20101019235944) do
     t.datetime "updated_at"
   end
 
-# Could not dump table "users" because of following StandardError
-#   Unknown type 'Role' for column 'role'
+  create_table "timesheets", :force => true do |t|
+    t.integer  "hours"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "weeks", :force => true do |t|
     t.date     "start"
