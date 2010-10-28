@@ -4,6 +4,6 @@ class AddCategoryToUser < ActiveRecord::Migration
   end
 
   def self.down
-    delete_column :users, :category
+    remove_column :users, :category
   end
 end
