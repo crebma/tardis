@@ -1,4 +1,6 @@
 Tardis::Application.routes.draw do
+  resources :task_rows
+
   resources :users
 
   resources :roles
