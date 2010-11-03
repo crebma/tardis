@@ -15,6 +15,10 @@
     <%= f.label :hours %><br />
     <%= f.text_field :hours %>
   </div>
+  <div class="field">
+    <%= f.label :task %><br />
+    <%= collection_select :timesheet, :task_id, Task.all, "id", "project" %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
