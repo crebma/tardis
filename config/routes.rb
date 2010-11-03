@@ -1,6 +1,4 @@
 Tardis::Application.routes.draw do
-  resources :timesheets
-
   resources :users
 
   resources :roles
