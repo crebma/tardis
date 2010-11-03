@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  startDate: 2010-11-02
+  task: 1
+
+two:
+  startDate: 2010-11-02
+  task: 1

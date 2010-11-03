@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Startdate:</b>
+  <%= @task_row.startDate %>
+</p>
+
+<p>
+  <b>Task:</b>
+  <%= @task_row.task.project if @task_row.task %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_row_path(@task_row) %> |
+<%= link_to 'Back', task_rows_path %>

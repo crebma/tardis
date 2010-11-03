@@ -1,0 +1,25 @@
+<%= form_for(@task_row) do |f| %>
+  <% if @task_row.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@task_row.errors.count, "error") %> prohibited this task_row from being saved:</h2>
+
+      <ul>
+      <% @task_row.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :startDate %><br />
+    <%= f.date_select :startDate %>
+  </div>
+  <div class="field">
+    <%= f.label :task %><br />
+    <%= collection_select :task_row, :task_id, Task.all, "id", "project" %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
